@@ -1,0 +1,64 @@
+.header{
+display: flex;
+flex-direction: row;
+height: 56px;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 60px;
+background-color: white;
+}
+.left{
+  width: 169px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.centre{
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 20px;
+  max-width: 732px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.right{
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.searchbar{
+  border-radius: 35px 0 0 35px;
+  height:36.8px;
+  flex:1;
+  border-width: 1px;
+  max-width:632px;
+  border-color: rgb(199, 193, 193);
+  border-style: solid;
+  width:0;
+}
+.search{
+  height: 41px;
+  width:62.3px;
+  border-radius: 0 35px 35px 0;
+  
+  border-width: 1px;
+  border-color: rgb(199, 193, 193);
+  border-style: solid;
+}
+.lines,
+.ytlogo{
+  margin-left: 20px;
+}.voicelogo{
+  height: 43px;
+width: 43px;
+border-radius: 30px;
+margin-left: 10px;
+border:0px;
+}
