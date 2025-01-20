@@ -28,14 +28,15 @@ background-color: white;
   align-items: center;
 }
 .right{
-  width: 150px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  column-gap: 10px;
 }
 .searchbar{
   border-radius: 35px 0 0 35px;
   height:36.8px;
+  font-size: 16px;
   flex:1;
   border-width: 1px;
   max-width:632px;
@@ -47,7 +48,7 @@ background-color: white;
   height: 41px;
   width:62.3px;
   border-radius: 0 35px 35px 0;
-  
+  background-color: rgb(249, 246, 246);
   border-width: 1px;
   border-color: rgb(199, 193, 193);
   border-style: solid;
@@ -61,4 +62,42 @@ width: 43px;
 border-radius: 30px;
 margin-left: 10px;
 border:0px;
+background-color: rgb(245, 241, 241);;
+}
+.search:hover{
+  background-color: rgb(245, 241, 241);
+  transition: 100ms;
+}
+.voicelogo:hover,
+.create:hover,
+.notification:hover{
+  background-color: rgb(218, 214, 214);
+  transition: 100px;
+}
+.profile{
+  height:34px;
+  border-radius: 20px;
+  
+}
+.create{
+  width: 97px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+  border-radius: 30px;
+  border: 0;
+  background-color: rgb(243, 238, 238);
+}
+.notification{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 0;
+  background-color: rgb(236, 233, 233);
+}
+.chann-profile{
+  background-color: white;
+  border: 0;
 }

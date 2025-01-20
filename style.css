@@ -54,7 +54,7 @@ body{
 
 .preview{
   display: grid;
-  grid-template-columns: 36px 1fr;
+  grid-template-columns: 36px 1fr 24px;
   padding-top: 10px;
   column-gap: 5px;
 }
@@ -67,5 +67,5 @@ body{
 }
 .preview1{
   display: grid;
-  grid-template-columns: 0px 1fr;
-  padding-top: 10px;}
+  grid-template-columns: 0px 1fr 24px;
+}
