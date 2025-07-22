@@ -1,71 +1,43 @@
-*{
-  margin: 0;
-  
-}
-body{
-  background-color:white;
-  padding-top: 90px;
-  padding-bottom: 1000px;
-  padding-left: 64px;
-}
-.recent{
-  margin:0;
-  vertical-align: top;
-  margin: 5px;
-}
-.original1{
-  background-color: aqua;
-  width:100%;
- border-radius: 11px;
- vertical-align: top;
-}.original{
-  background-color: aqua;
-  width: 100%;
- border-radius: 11px;
- vertical-align: top;
-}
-.original:hover,
-.original1:hover{
- border-radius: 0;
- transition: 15ms;
-}
-.language{
-  background-color: aqua;
- margin-top: 10px ;
- height: 144.9px;
- width:257.6px;
-}
-.details{
-  display: block;
-}
-.author{
-  display: block;
-}
-.time{
-  display: block;
-}
-.updated{
-  display: block;
-}
-.logo{
-  width:36px;
-  border-radius: 18px;
-}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    background: linear-gradient(rgb(110, 216, 240),rgb(66, 194, 19));
+  }
 
-.preview{
-  display: grid;
-  grid-template-columns: 36px 1fr 24px;
-  padding-top: 10px;
-  column-gap: 5px;
-}
-.main{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 10px;
-  row-gap: 20px;
-  margin-left: 20px;
-}
-.preview1{
-  display: grid;
-  grid-template-columns: 0px 1fr 24px;
-}
+  #cv-template{
+    display: none;
+  }
+  .myimg{
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .background{
+    background-color: lightcoral;
+    z-index: 1000;
+  }
+  .header{
+    color: white;
+    align-items: center;
+  }
+  .footer{
+    background-color: rgb(4, 44, 84); 
+  }
+  .bt{
+    border: none;
+    background-color: rgb(139, 139, 139); 
+  }
+  .icon{
+    padding: 2px 4px 2px 4px;
+  }
+  .text{
+    color: #b9b9b9;
+    padding-bottom: 5px;
+  }
+  .bottom{
+    text-align: center;
+  }
